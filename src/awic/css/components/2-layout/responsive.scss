@@ -1,0 +1,391 @@
+// height responsive start
+@include height840 {
+  @include introHeight840;
+}
+@include height980px {
+  @include sidebarHeight980;
+}
+// height responsive end
+// width responsive start
+@include xxxxlg-xxxxxlg {
+  h2 {
+    font-size: 44px;
+    line-height: 54px;
+    &.b-r {
+      span {
+        font-size: 100px;
+        line-height: 120px;
+        right: -100px;
+        bottom: -40px;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 100px;
+        line-height: 120px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 100px;
+        line-height: 120px;
+      }
+    }
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .btn-primary {
+    font-size: 18px;
+  }
+  @include sidebar1740;
+  @include intro1740;
+  @include card1740;
+  @include blog1740;
+  @include feature1740;
+  @include travel1740;
+  @include story1740;
+}
+// 1460
+@include xxxlg-xxxxlg {
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    &.b-r {
+      span {
+        font-size: 80px;
+        line-height: 100px;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 80px;
+        line-height: 100px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 80px;
+        line-height: 100px;
+        left: -60px;
+      }
+    }
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  p.xsm {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @include card1460;
+  @include blog1460;
+  @include story1460;
+  @include travel1460;
+  @include footer1460;
+  @include recent1460;
+}
+// 1340
+@include xxlg-xxxlg {
+  @include intro1340;
+  @include feature1340;
+  @include travel1340;
+  @include recent1340;
+  @include footer1340;
+
+  h2 {
+    font-size: 32px;
+    line-height: 42px;
+    &.b-r {
+      span {
+        font-size: 60px;
+        line-height: 80px;
+        bottom: -40px;
+        right: -60px;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 60px;
+        line-height: 80px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 60px;
+        line-height: 80px;
+      }
+    }
+  }
+}
+// 1024
+@include lg-xlg {
+  h2 {
+    font-size: 70px;
+    line-height: 95px;
+    &.b-r {
+      span {
+        right: -100px;
+        font-size: 140px;
+        line-height: 1;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 140px;
+        line-height: 1;
+        left: 100px;
+        top: -100px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 140px;
+        line-height: 1;
+        left: unset;
+        right: -100px;
+        bottom: unset;
+        top: -70px;
+      }
+    }
+  }
+  h3 {
+    font-size: 52px;
+    line-height: 70px;
+  }
+  h4 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 32px;
+    line-height: 40px;
+    &.xsm {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    &.sm {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  }
+
+  .btn-primary {
+    font-size: 28px;
+    padding: 27px 70px;
+  }
+  .auto__container {
+    padding: 0;
+  }
+  @include intro1024;
+  @include card1024;
+  @include blog1024;
+  @include feature1024;
+  @include travel1024;
+  @include story1024;
+  @include recent1024;
+  @include footer1024;
+}
+// 980
+@include md-lg {
+  h2 {
+    font-size: 54px;
+    line-height: 62px;
+    &.b-r {
+      span {
+        font-size: 120px;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 120px;
+        top: -70px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 120px;
+        right: -80px;
+        bottom: unset;
+        top: -60px;
+      }
+    }
+  }
+  h3 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  h4 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 32px;
+    &.xsm {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &.sm {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+  .btn-primary {
+    font-size: 22px;
+    padding: 20px 50px;
+  }
+  @include intro980;
+  @include blog980;
+  @include card980;
+  @include story980;
+  @include recent980;
+}
+// 768px
+@include sm-md {
+  h2 {
+    font-size: 42px;
+    line-height: 50px;
+    &.b-r {
+      span {
+        font-size: 80px;
+        right: -40px;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 80px;
+        top: -40px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 80px;
+        right: -60px;
+        top: -50px;
+
+        bottom: unset;
+      }
+    }
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  h4 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 28px;
+    &.xsm {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    &.sm {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+  .btn-primary {
+    font-size: 18px;
+    padding: 17px 25px;
+  }
+  @include intro768;
+  @include card768;
+  @include blog768;
+  @include feature768;
+  @include travel768;
+  @include story768;
+  @include recent768;
+  @include footer768;
+}
+// 650px
+@include xsm-sm {
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    &.b-r {
+      span {
+        font-size: 70px;
+        right: 0;
+      }
+    }
+    &.t-l {
+      span {
+        font-size: 70px;
+        top: -50px;
+        left: 50px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 70px;
+        top: -60px;
+        right: -30px;
+        top: -40px;
+      }
+    }
+  }
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    &.sm {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .btn-primary {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+  @include intro650;
+  @include card650;
+  @include travel650;
+  @include story650;
+  @include recent650;
+  @include footer650;
+}
+// 480px
+@include xxsm-xsm {
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+    &.t-l {
+      span {
+        font-size: 45px;
+        top: -20px;
+        left: 50px;
+      }
+    }
+    &.b-l {
+      span {
+        font-size: 45px;
+        top: -30px;
+      }
+    }
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .btn-primary {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+  @include intro480;
+  @include card480;
+  @include blog480;
+  @include travel480;
+  @include story480;
+  @include recent480;
+}
+// width responsive end

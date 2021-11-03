@@ -1,0 +1,122 @@
+.blog {
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 42%;
+    height: 60%;
+    background: url(../images/trending/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  &::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 42%;
+    height: 50%;
+    background: url(../images/trending/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  &__inner {
+    margin: 0 -12px;
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 58px;
+    }
+  }
+  .card {
+    margin: 0 12px;
+  }
+}
+@mixin blog1740 {
+  .blog {
+    &__inner {
+      &-title {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
+@mixin blog1460 {
+  .blog {
+    &__inner {
+      margin: 0 -6px;
+    }
+    .card {
+      margin: 0 6px;
+    }
+  }
+}
+@mixin blog1024 {
+  .blog {
+    padding: 68px 0 0 0;
+    &::before {
+      height: 520px;
+      opacity: 0.6;
+      width: 80%;
+    }
+    &::after {
+      height: 450px;
+      width: 80%;
+      opacity: 0.6;
+      bottom: 180px;
+    }
+    &__inner {
+      margin: 0;
+      &-title {
+        margin-bottom: 46px;
+      }
+    }
+    .card {
+      margin: 0 80px 0 0;
+    }
+  }
+}
+@mixin blog980 {
+  .blog {
+    .card {
+      margin: 0 40px 0 0;
+    }
+  }
+}
+@mixin blog768 {
+  .blog {
+    &::before {
+      height: 250px;
+    }
+    &::after {
+      height: 250px;
+    }
+    .card {
+      margin: 0 20px 0 0;
+    }
+  }
+}
+@mixin blog480 {
+  .blog {
+    &::before {
+      height: 200px;
+    }
+    &::after {
+      height: 200px;
+    }
+    .card {
+      margin: 0 15px;
+    }
+  }
+}

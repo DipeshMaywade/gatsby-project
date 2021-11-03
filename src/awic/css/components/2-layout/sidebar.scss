@@ -1,0 +1,130 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $white;
+  width: 120px;
+  height: 100%;
+  background-color: white;
+  font-size: 10px;
+  transform: translateX(-100%);
+  @include transition;
+
+  &.active {
+    transform: translateX(0);
+  }
+  &__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid $black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+  }
+  &__inner {
+    width: 120px;
+    height: calc(100% - 120px);
+    top: 120px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    a {
+      padding: 50px;
+      font-family: $font-lemon;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: $black;
+      position: relative;
+      white-space: nowrap;
+      writing-mode: vertical-rl;
+      transform: rotate(-180deg);
+      &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        right: 100%;
+        @include transformY;
+        width: 5px;
+        background: #9b9b9d;
+        height: calc(100% - 100px);
+        opacity: 0;
+      }
+      &.active {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+@mixin sidebar1740 {
+  .intro {
+    &.active {
+      padding-left: 80px;
+    }
+  }
+  .sidebar {
+    width: 80px;
+    &__close {
+      height: 80px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    &__inner {
+      width: 80px;
+      height: calc(100% - 80px);
+      top: 80px;
+      a {
+        padding: 20px 28px;
+        &::before {
+          height: calc(100% - 56px);
+        }
+      }
+    }
+  }
+}
+@mixin sidebarHeight980 {
+  .intro {
+    &.active {
+      padding-left: 80px;
+    }
+  }
+  .sidebar {
+    width: 80px;
+    &__close {
+      height: 80px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    &__inner {
+      width: 80px;
+      height: calc(100% - 80px);
+      top: 80px;
+      a {
+        padding: 20px 28px;
+        &::before {
+          height: calc(100% - 56px);
+        }
+      }
+    }
+  }
+}
+@mixin sidebarHeight1340 {
+  .sidebar__inner {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,95 @@
+h2 {
+  font-family: $font-lemon;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 68px;
+  color: $black;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  span {
+    font-family: $font-gilmer;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: rgba($color: $gray-2, $alpha: 0.2);
+    display: block;
+  }
+  &.b-r {
+    span {
+      position: absolute;
+      bottom: -60px;
+      right: -140px;
+      z-index: -1;
+      text-transform: capitalize;
+    }
+  }
+  &.b-l {
+    span {
+      position: absolute;
+      top: -10px;
+      left: -100px;
+      z-index: -1;
+      text-transform: capitalize;
+    }
+  }
+  &.t-l {
+    span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      text-transform: capitalize;
+    }
+  }
+}
+h3 {
+  font-family: $font-lemon;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 54px;
+  color: $black;
+}
+h4 {
+  font-family: $font-larsseti;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  color: $white;
+}
+p {
+  font-family: $font-larsseti;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: $white;
+}
+p.sm {
+  font-size: 20px;
+}
+p.xsm {
+  font-size: 18px;
+}
+.btn {
+  &-primary {
+    padding: 16px 35px;
+    font-family: $font-lemon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $white;
+    border: 1px solid $white;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+}

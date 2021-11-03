@@ -1,0 +1,220 @@
+.travel {
+  background: $black;
+
+  .auto__container {
+    padding: 0;
+    position: relative;
+    .intro__social {
+      right: unset;
+      left: 0;
+      width: 6.2%;
+      z-index: 1;
+    }
+  }
+  &__slider {
+    &-outer {
+      position: relative;
+      padding-left: 14.2%;
+    }
+    &-footer {
+      position: absolute;
+      bottom: 34px;
+      right: 34px;
+      display: flex;
+      align-items: center;
+      button {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $white;
+        cursor: pointer;
+        @include transition;
+        margin: 0 9px;
+        &:hover {
+          background: $black;
+          svg {
+            fill: $white;
+          }
+        }
+        svg {
+          @include transition;
+          fill: $black;
+        }
+      }
+    }
+    &-item {
+      position: relative;
+      display: flex !important;
+      align-items: center;
+      &-content {
+        position: relative;
+        width: 100%;
+        max-width: 785px;
+        z-index: 1;
+        padding: 85px 0 120px 0;
+      }
+      &-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 100%;
+        img {
+          @include fullImage;
+        }
+      }
+    }
+  }
+  p.sm {
+    font-family: $font-larsseti;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  h2 {
+    margin-bottom: 32px;
+    color: $white;
+  }
+  p {
+    margin-bottom: 85px;
+    font-weight: 300;
+  }
+}
+@mixin travel1740 {
+  .travel {
+    &__slider {
+      &-item {
+        &-content {
+          max-width: 680px;
+        }
+      }
+    }
+  }
+}
+@mixin travel1460 {
+  .travel {
+    p {
+      margin-bottom: 45px;
+    }
+  }
+}
+@mixin travel1340 {
+  .travel {
+    &__slider {
+      &-item {
+        &-content {
+          max-width: 550px;
+        }
+      }
+    }
+  }
+}
+@mixin travel1024 {
+  .travel {
+    &__slider {
+      &-footer {
+        left: 50%;
+        @include transformX;
+        top: 600px;
+        bottom: unset;
+        right: unset;
+        align-items: unset;
+      }
+      &-outer {
+        padding: 0;
+      }
+      &-item {
+        flex-direction: column;
+        &-image {
+          position: unset;
+          order: 1;
+          height: 632px;
+          width: 100%;
+          img {
+            @include fullImage;
+          }
+        }
+        &-content {
+          max-width: unset;
+          order: 2;
+          box-sizing: border-box;
+          padding: 90px 50px 60px 50px;
+        }
+      }
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      &.sm {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+    }
+    .btn-primary {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 280px;
+      padding: 27px 0;
+    }
+  }
+}
+@mixin travel768 {
+  .travel {
+    &__slider {
+      &-footer {
+        top: 400px;
+      }
+      &-item {
+        &-image {
+          height: 430px;
+        }
+      }
+    }
+  }
+}
+@mixin travel650 {
+  .travel {
+    &__slider {
+      &-footer {
+        top: 305px;
+        button {
+          width: 50px;
+          height: 50px;
+          margin: 0 4px;
+          svg {
+            width: 22px;
+            height: 22px;
+          }
+        }
+      }
+      &-item {
+        &-content {
+          padding: 60px 30px 60px 30px;
+        }
+        &-image {
+          height: 330px;
+        }
+      }
+    }
+    .btn-primary {
+      padding: 17px 0;
+    }
+  }
+}
+@mixin travel480 {
+  .travel__slider-item-content {
+    padding: 60px 20px 40px 20px;
+  }
+  .travel {
+    h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}

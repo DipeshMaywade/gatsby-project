@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerHeavy.eot');
+    src: url('GilmerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('GilmerHeavy.woff') format('woff'),
+        url('GilmerHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerBold.eot');
+    src: url('GilmerBold.eot?#iefix') format('embedded-opentype'),
+        url('GilmerBold.woff') format('woff'),
+        url('GilmerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerLight.eot');
+    src: url('GilmerLight.eot?#iefix') format('embedded-opentype'),
+        url('GilmerLight.woff') format('woff'),
+        url('GilmerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerMedium.eot');
+    src: url('GilmerMedium.eot?#iefix') format('embedded-opentype'),
+        url('GilmerMedium.woff') format('woff'),
+        url('GilmerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerRegular.eot');
+    src: url('GilmerRegular.eot?#iefix') format('embedded-opentype'),
+        url('GilmerRegular.woff') format('woff'),
+        url('GilmerRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.eot');
+    src: url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Light.woff') format('woff'),
+        url('Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.eot');
+    src: url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('Larsseit.eot');
+    src: url('Larsseit.eot?#iefix') format('embedded-opentype'),
+        url('Larsseit.woff') format('woff'),
+        url('Larsseit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('Larsseit-ExtraBold.eot');
+    src: url('Larsseit-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Larsseit-ExtraBold.woff') format('woff'),
+        url('Larsseit-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('Larsseit-Light.eot');
+    src: url('Larsseit-Light.eot?#iefix') format('embedded-opentype'),
+        url('Larsseit-Light.woff') format('woff'),
+        url('Larsseit-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('Larsseit-Medium.eot');
+    src: url('Larsseit-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Larsseit-Medium.woff') format('woff'),
+        url('Larsseit-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('LEMONMILK-Bold.eot');
+    src: url('LEMONMILK-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LEMONMILK-Bold.woff') format('woff'),
+        url('LEMONMILK-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('LEMONMILK-Light.eot');
+    src: url('LEMONMILK-Light.eot?#iefix') format('embedded-opentype'),
+        url('LEMONMILK-Light.woff') format('woff'),
+        url('LEMONMILK-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('LEMONMILK-Medium.eot');
+    src: url('LEMONMILK-Medium.eot?#iefix') format('embedded-opentype'),
+        url('LEMONMILK-Medium.woff') format('woff'),
+        url('LEMONMILK-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('LEMONMILK-Regular.eot');
+    src: url('LEMONMILK-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LEMONMILK-Regular.woff') format('woff'),
+        url('LEMONMILK-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
